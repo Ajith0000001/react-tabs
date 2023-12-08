@@ -41,7 +41,7 @@ const App = () => {
               return (
                 <button
                   key={item.id}
-                  className="text-[1.5rem] p-[5px] px-4  rounded-lg hover:underline"
+                  className="   text-[1.2rem]  sm:text-[1.5rem] p-[5px] sm:px-4 px-1 rounded-lg hover:underline"
                   onClick={() => setValue(index)}
                 >
                   {item.company}
